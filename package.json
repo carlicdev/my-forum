@@ -1,0 +1,28 @@
+{
+  "name": "passport-react-express",
+  "version": "1.0.0",
+  "description": "authentication with passport",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon server/index.js",
+    "dev": "concurrently \"npm run server\"  \"cd client && npm start\""
+  },
+  "keywords": [
+    "passport",
+    "express",
+    "react"
+  ],
+  "author": "CarliC",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
